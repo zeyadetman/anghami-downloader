@@ -1,0 +1,22 @@
+{
+  "name": "Anghami Downloader",
+  "description": "Download Songs from Anghami",
+  "version": "0.1",
+  "permissions": [
+    "debugger",
+    "tabs",
+    "https://*.anghami.com/*"
+  ],
+  "matches": [
+    "https://*.anghami.com/*"
+  ],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Anghami Downloader"
+  },
+  "manifest_version": 2
+}
+
